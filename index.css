@@ -1,0 +1,18 @@
+/* first thing first */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* layout and shit */
+body {
+    background: #E5E5E5;
+}
+
+/* Typography */
+body {
+    font-family: 'Inter', sans-serif;
+}
