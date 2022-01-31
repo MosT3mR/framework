@@ -12,6 +12,69 @@ body {
     background: #E5E5E5;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    justify-content: space-between;
+    background: #FDF9F9;
+    opacity: 0.9;
+    box-shadow: 0px -3px 6px 3px rgba(0, 0, 0, 0.15);
+}
+
+.header__logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.header__ul {
+    list-style: none;
+}
+
+.hero {
+    background: url(./img/hero.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__img {
+    max-width: 476px;
+}
+
+.showcase__img, .main__img {
+    max-width: 313px;
+}
+
+.main__container {
+    display: grid;
+    grid-template-areas: "img title"
+                         "img li"   ;
+}
+
+.main__img {
+    grid-area: img;
+}
+
+.main__title {
+    grid-area: title;
+}
+
+.main__li {
+    grid-area: li;
+}
+
+.footer {
+    background: #FDF9F9;
+    box-shadow: inset 0px 1px 4px -1px rgba(0, 0, 0, 0.22);
+}
+
+
 /* Typography */
 body {
     font-family: 'Inter', sans-serif;
